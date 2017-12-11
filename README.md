@@ -34,8 +34,8 @@ look at this pic
 
 
 ***********************************
-To prevent the injection we can encode the input password before sending it to the query handling by using   
-1- var res = encodeURI(password); in your code  or   
+To prevent the injection we can encode the input password before sending it to the query handling by using     
+1- var res = encodeURI(password); in your code  or     
 2- • Replace problematic characters with safe ones  
 
 • change ’ to \’  
@@ -45,9 +45,9 @@ To prevent the injection we can encode the input password before sending it to t
  to prevent that as we will see in this example in atom  .............  
  
 
-#Resourse:
+#Resourse:   
 [res1](https://en.wikipedia.org/wiki/Code_injection)  
 [res2](https://www.youtube.com/watch?v=E1zvy7foYR4)  
 [res3](http://www.itprotoday.com/software-development/script-injection-attacks)   
-[res4](http://www.techpanda.org/dashboard.php)  
-[ers5](https://www.veracode.com/security/sql-injection\)
+[res4](http://www.techpanda.org/dashboard.php)    
+[res5](https://www.veracode.com/security/sql-injection\)
