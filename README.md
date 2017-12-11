@@ -45,7 +45,7 @@ To prevent the injection we can encode the input password before sending it to t
  to prevent that as we will see in this example in atom  .............  
  
 
-#Resourse:   
+# Resourse:   
 [res1](https://en.wikipedia.org/wiki/Code_injection)  
 [res2](https://www.youtube.com/watch?v=E1zvy7foYR4)  
 [res3](http://www.itprotoday.com/software-development/script-injection-attacks)   
