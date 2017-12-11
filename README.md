@@ -42,6 +42,10 @@ To prevent the injection we can encode the input password before sending it to t
 • change ; to \;  
 • change - to -  
 • change \ to \    
+
+
+and   
+ $result = mysql_query(“select * from Users where(name=‘$user’ and password=‘$pass’);”);   
  to prevent that as we will see in this example in atom  .............  
  
 
