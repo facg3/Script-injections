@@ -1,6 +1,6 @@
-                                                  # Script-injections
+# Script-injections
     
-# What is a script injection ?  
+## What is a script injection ?  
 Code Injection is the general term for attack types which consist of injecting code that is then executed by the application. This type of attack exploits poor handling of untrusted data. These types of attacks are usually made possible because a lack of proper input/output data validation.and The result of successful code injection can be disastrous
 
 
@@ -18,10 +18,10 @@ Code Injection is the general term for attack types which consist of injecting c
 
 [Example site](http://www.techpanda.org/dashboard.php) 
 
- This is a log in page for admin dashboard, he open the dashboard when you access the right email and password,
+ This is a log in page for admin dashboard, he open the dashboard when you access the right email and password,  
 lets try adding any email and then add this password = yzyz OR 1 = 1 -- ] Click on Submit button You will be directed to the dashboard
 
-SQL statement will be as follows
+SQL statement will be as follows  
 
 SELECT * FROM users WHERE email = 'yzyzy@yzyz.yz' AND password = anything OR 1 = 1 -- ]');
 
@@ -34,19 +34,20 @@ look at this pic
 
 
 ***********************************
-To prevent the injection we can encode the input password before sending it to the query handling by using 
-1- var res = encodeURI(password); in your code  or 
-2- • Replace problematic characters with safe ones
-• change ’ to \’
-• change ; to \;
-• change - to -
-• change \ to \  
- to prevent that as we will see in this example in atom  .............
+To prevent the injection we can encode the input password before sending it to the query handling by using   
+1- var res = encodeURI(password); in your code  or   
+2- • Replace problematic characters with safe ones  
+
+• change ’ to \’  
+• change ; to \;  
+• change - to -  
+• change \ to \    
+ to prevent that as we will see in this example in atom  .............  
  
 
 #Resourse:
-[res1](https://en.wikipedia.org/wiki/Code_injection)
-[res2](https://www.youtube.com/watch?v=E1zvy7foYR4)
-[res3](http://www.itprotoday.com/software-development/script-injection-attacks)
-[res4](http://www.techpanda.org/dashboard.php)
+[res1](https://en.wikipedia.org/wiki/Code_injection)  
+[res2](https://www.youtube.com/watch?v=E1zvy7foYR4)  
+[res3](http://www.itprotoday.com/software-development/script-injection-attacks)   
+[res4](http://www.techpanda.org/dashboard.php)  
 [ers5](https://www.veracode.com/security/sql-injection\)
