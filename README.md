@@ -19,11 +19,11 @@ Code Injection is the general term for attack types which consist of injecting c
 [Example site](http://www.techpanda.org/dashboard.php) 
 
  This is a log in page for admin dashboard, he open the dashboard when you access the right email and password u will log in but ,  
-lets try adding any email like  = yzyz OR 1 = 1 -- ] Click on Submit button You will be directed to the dashboard
+lets try adding any email like  = yzyz OR 1 = 1 --  and pass  = anything or 1=1 ] Click on Submit button You will be directed to the dashboard
 
 SQL statement will be as follows  
 
-SELECT * FROM users WHERE email = 'yzyzy@yzyz.yz' AND password = anything OR 1 = 1 -- ]');
+SELECT * FROM users WHERE email = 'yzyzy@yzyz.yz'or 1=1 AND password  its ok do do any thing or 1=1 );
 
 * 1=1 will be True
 its like u said to him  this command sql 
